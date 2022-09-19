@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(90deg, rgba(198,154,227,1) 0%, rgba(241,125,205,1) 21%, rgba(241,205,154,1) 41%);
+    padding: 12px 24px;
+    align-items: center;
+}
+
+header>nav>ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    gap: 15px;
+}
+header>nav>ul>li>a{
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+header>nav>ul>li:last-child a {
+    color: green;
+}
+
+header>nav>ul>li>a:hover{
+    color:  rgba(164,85,215,1);
+    }
+
+    .bannerPrincipal{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background: url("https://sites.google.com/site/lalunaazul121/_/rsrc/1466209139226/fundamento-textil/Milliken-textiles-cutting-edge-fabric-performance.jpg"), linear-gradient(180deg, rgb(0 0 0 / 52%) 32%, rgb(6 6 5 / 36%) 100%, rgb(10 8 6 / 32%) 100%);
+        background-blend-mode: color;
+        height: 70vh;
+        font-family: 'PT Serif', serif;
+        font-size: smaller;
+        color: aliceblue;
+        padding: 5%;
+        text-align: end;
+        justify-content: end;
+        align-items: end;
+    }
+
+    .bannerPrincipal button{
+        width: fit-content;
+        cursor: pointer;
+        padding: 4px 8px;
+        margin-top: .8em;
+        background:linear-gradient(180deg, rgba(246,77,4,1) 100%, rgba(238,172,218,1) 100%, rgba(164,85,215,1) 100%);
+        color: blanchedalmond;
+        border: 0px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+}
+
+.titleCards{
+    display: flex;
+    margin: 5px 0;
+    font-size: .80em;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Marcellus', serif;
+    text-transform: uppercase;
+}
+
+.titleCards div:last-child{
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+width: 25%;
+font-family: 'Marcellus', serif;
+border: 1px solid rgba(145, 145, 145, 0.26);
+}
+
+.card .image{
+    height: 250px;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.imgA{
+    background-image: url("https://media.istockphoto.com/photos/cushion-on-sofa-in-living-room-picture-id981020260?k=20&m=981020260&s=612x612&w=0&h=aFCYcXEKbzQSv_l_ykRc3p4gPVzzx2coEQYRyzugt4A=");
+}
+
+.imgB{
+    background-image: url("https://media.istockphoto.com/photos/cushions-picture-id831712560?k=20&m=831712560&s=612x612&w=0&h=X2w27YN2_70dhw5CG2l6a3vg-faVkD7jmEEyOG8MPSw=");
+
+}
+
+.imgC{
+    background-image: url("https://media.istockphoto.com/photos/nice-cat-relaxing-at-home-on-pet-bed-picture-id1217175454?k=20&m=1217175454&s=612x612&w=0&h=zbHY-nrzjGwffn-D6vAkJiA8O600uqkTItnlXQVT2Ig=");
+
+}
+
+.subtitles{
+    display: flex;
+    gap: 6px;
+}
+.Articulo {
+    background-color: rgb(255, 132, 0);
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    padding: 1px 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.Diseño {
+    background-color: rgb(243, 92, 157);
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.texts{
+    margin: 0 15px;
+}
+
+.titles{
+    margin: 15px 0;
+}
+
+.Seccion {
+    font-weight: bold;
+
+}
+
+.Info {
+    font-size: small;
+
+}
+
+.pub{
+    font-family: 'Marcellus', serif;
+    margin: 30px 0px;
+    display: flex;
+    height: 35vh;
+    gap: 2px;
+    color: white;
+}
+
+.pub .image{
+    background-image: url("https://cdn.pixabay.com/photo/2020/04/29/17/00/mauritius-5109739__340.jpg");
+    height: 100%;
+    width: 65%;
+}
+
+.pub .text{
+    background-color:cornflowerblue;
+    padding: 15px;
+}
+
+.pub .text div:first-child{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pub .text button{
+    margin: 15px 0px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.lowercase{
+    text-transform: none;
+}
+
+.lowercase a{
+    color: black;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+form{
+    padding: 10px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+form>div>input{
+    padding: 2px;
+    width: 100%;
+    font-family: 'Marcellus', serif;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form>textarea{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 4px 0;
+    width: 100%;
+    font-family: 'Marcellus', serif;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+form>button{
+    width: 100%;
+    color: white;
+    background-color: rgb(119, 177, 31);
+    border: none;
+    padding: 9px 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+footer ul {
+    padding: 20px;
+    font-family: 'Marcellus', serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background: radial-gradient(circle, rgba(115,51,255,1) 0%, rgba(131,51,207,1) 62%, rgba(158,88,158,1) 100%, rgba(135,97,191,1) 100%, rgba(175,132,218,1) 100%);
+
+}
+
+footer ul li {
+    list-style-type: none;
+    width: 10%;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
